@@ -1,0 +1,51 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    padding-left: 15px;
+    color: rgb(97, 135, 145);
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-list {
+    margin: 15px auto;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.ul-btn {
+    background-color: rgb(97, 135, 145);
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+.ul-btn:hover {
+    box-shadow: 0.5px 0.5px 3px 1px rgba(0, 0, 0, 0.349);
+}
+
+.todo-filter {
+    background-color: rgb(191, 220, 227);
+    padding: 10px;
+}
+
+.todo-stat {
+    background-color: rgb(191, 220, 227);
+    padding: 2px;
+    margin-top: 30px;
+}
+
+.todo-stat span {
+    font-size: 20px;
+}
